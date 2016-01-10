@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta
+	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+	name="viewport">
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+<script type="text/javascript" src="js/jquery.min.js">
+	
+</script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js">
+	
+</script>
+
+ <script type="text/javascript" src="js/highcharts.js">
+	
+</script>
+<script type="text/javascript" src="js/drilldown.js">
+	
+</script>
+
+<title>Health</title>
+</head>
+<body>
+
+
+	<div class="main">
+
+		<div class="main_container">
+			<header></header>
+			<div class="main_body webPageMid">
+
+				<div class="jumbotron">
+					<h1>Health Care</h1>
+					<p>Providing information for the need</p>
+				</div>
+
+				<div class="panel panel-primary">
+					<div class="panel-heading">Symptoms</div>
+					<div class="panel-body">
+						<div>
+
+							<div >
+								
+
+
+								</div>
+
+
+							
+						
+						<div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title"  data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+		
+		<a>Hospital Coverage Based on city</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+      <div class="col-lg-4">
+			<label for="HospitalCoverageBasedoncity_input_city">City</label> 
+			<input type="text" class="" id="HospitalCoverageBasedoncity_input_city" placeholder="City">
+		</div>
+		<button class="btn btn-default" id="HospitalCoverageBasedoncity_btn">Search</button>
+        <div id="HospitalCoverageBasedoncity" style="min-width: 310px; height: 400px; margin: 0 auto; display:none;">
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title"  data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+          <a>Death Based on Symptom</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+      
+      <div class="col-lg-4">
+			<label for="DeathBasedonSymptom_input_Symptom">Symptom</label> 
+			<input type="text" class="" id="DeathBasedonSymptom_input_Symptom" placeholder="Symptom">
+		</div>
+		
+		<div class="col-lg-4">
+			<label for="DeathBasedonSymptom_input_city">City</label> 
+			<input type="text" class="" id="DeathBasedonSymptom_input_city" placeholder="City">
+		</div>
+		
+		
+      <button class="btn btn-default" id="DeathBasedonSymptom_btn">Search</button>
+       
+        <div id="DeathBasedonSymptom" style="min-width: 310px; height: 400px; margin: 0 auto; display:none;">
+        </div>
+    </div>
+    
+  </div> 
+	<div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title"  data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+          <a>Age vs Persons based on Symptom</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+          <div class="col-lg-4">
+			<label for="AgevsPersonsbasedonSymptom_input_Symptom">Symptom</label> 
+			<input type="text" class="" id="AgevsPersonsbasedonSymptom_input_Symptom" placeholder="Symptom">
+		</div>
+		
+		
+		
+		
+      <button class="btn btn-default" id="AgevsPersonsbasedonSymptom_btn">Search</button>
+       
+        <div id="AgevsPersonsbasedonSymptom" style="min-width: 310px; height: 400px; margin: 0 auto;display:none;">
+        </div>
+      </div>
+    </div>					
+						
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
